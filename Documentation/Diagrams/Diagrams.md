@@ -2,7 +2,7 @@
 ---
 
 # Содержание
-1 [Диаграмма вариантов использования](Boardgame-Master/Documentation/Diagrams/Use Case Diagrams/EventFlows.md)  
+1 [Диаграмма вариантов использования](UseCase/EventFlows.md)  
 2 [Диаграммы активностей]()  
 3 [Диаграммы последовательностей]()  
 4 [Диаграммы состояний]()  
