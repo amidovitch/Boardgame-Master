@@ -6,5 +6,5 @@ Boardgame Master is a Windows application for the dungeon masters, storytellers 
 
 # Содержание
 1 [Документация](Documentation)  
-1.1 [Требования](https://github.com/Kiruga/Boardgame-Master/blob/master/Documentation/Requirements.md)  
+1.1 [Требования](https://github.com/Kiruga/Boardgame-Master/blob/master/Documentation/RequirementsRU.md)([English](https://github.com/Kiruga/Boardgame-Master/blob/master/Documentation/RequirementsEN.md))
 1.2 [Диаграммы](https://github.com/Kiruga/Boardgame-Master/blob/master/Documentation/Diagrams/Diagrams.md)  
