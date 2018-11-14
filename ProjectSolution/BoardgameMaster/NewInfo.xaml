@@ -1,0 +1,23 @@
+﻿<Window x:Class="BoardgameMaster.NewInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BoardgameMaster"
+        mc:Ignorable="d"
+        Title="NewInfo" Height="325" Width="250">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="4*"></RowDefinition>
+			<RowDefinition Height="4*"></RowDefinition>
+			<RowDefinition Height="4*"></RowDefinition>
+			<RowDefinition Height="1*"></RowDefinition>
+		</Grid.RowDefinitions>
+		<Label Height="50" Content="Name" VerticalAlignment="Top" FontSize="30" HorizontalContentAlignment="Center" Grid.Row="0"/>
+		<TextBox Name="playerName" Height="50" Grid.Row="0" VerticalAlignment="Bottom" Margin="10"/>
+		<Label Height="50" Content="Role" VerticalAlignment="Top" FontSize="30" HorizontalContentAlignment="Center" Grid.Row="1"/>
+		<TextBox Name="playerRole" Height="50" Grid.Row="1" VerticalAlignment="Bottom" Margin="10"/>
+		<Button Name="Cancel" Width="150" Height="40" Content="Cancel" Grid.Row="2" FontSize="30" VerticalContentAlignment="Center" Padding="0, 0, 0, 0" VerticalAlignment="Bottom" Click="Cancel_Click"/>
+		<Button Name="Save" Width="150" Height="40" Content="Save" Grid.Row="2" FontSize="30" VerticalContentAlignment="Center" Padding="0, 0, 0, 0" VerticalAlignment="Top" Click="Save_Click"/>
+	</Grid>
+</Window>
