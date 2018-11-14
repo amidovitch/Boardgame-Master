@@ -7,10 +7,14 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="260">
 	<Grid>
-		<Label Name="playerName" Height="40" Width="160" Canvas.Left="50" Canvas.Top="30" Margin="50,45,50,215"/>
-		<Label Name="playerRole" Height="40" Width="160" Canvas.Left="50" Canvas.Top="80" Margin="50,95,50,165"/>
-		<Label Height="40" Width="40" Canvas.Left="110" Canvas.Top="130" Margin="110,145,110,115" />
-		<Label Height="40" Width="40" Canvas.Left="110" Canvas.Top="180" Margin="110,195,110,65" />
+		<Label Name="playerName" Height="40" Width="160" Margin="50,45,50,215" HorizontalContentAlignment="Center"/>
+		<Label Name="playerRole" Height="40" Width="160" Margin="50,95,50,165" HorizontalContentAlignment="Center"/>
+		<Label Name="level" Height="40" Width="40" Margin="110,145,110,115" HorizontalContentAlignment="Center" Content="0" Padding="0, 0, 0, 0" FontSize="35"/>
+		<Button Name="incLevel" Height="Auto" Width="Auto" Margin="180,145,40,115" Content="+" Padding="0, 0, 0, 0" FontSize="30" Click="incLevel_Click"  />
+		<Button Name="decLevel" Height="40" Width="40" Canvas.Left="110" Canvas.Top="130" Margin="40,145,180,115" Content="-" Padding="0, 0, 0, 0" FontSize="30" Click="decLevel_Click"/>
+		<Label Name="power" Height="40" Width="40" Canvas.Left="110" Canvas.Top="180" Margin="110,195,110,65" Content="0"  Padding="0, 0, 0, 0" FontSize="35" HorizontalContentAlignment="Center"/>
+		<Button  Name="incPower" Height="40" Width="40" Canvas.Left="110" Canvas.Top="180" Margin="180,195,40,65" Content="+" Padding="0, 0, 0, 0" FontSize="30" Click="incPower_Click"/>
+		<Button  Name="decPower" Height="40" Width="40" Canvas.Left="110" Canvas.Top="180" Margin="40,195,180,65" Content="-" Padding="0, 0, 0, 0" FontSize="30" Click="decPower_Click"/>
 		<Button Height="40" Width="150" Canvas.Left="55" Canvas.Top="230" Content="Edit" FontSize="20" Margin="55,250,55,10"/>
 		<Button Name="Delete" Height="40" Width="40" Canvas.Right="10" Click="Delete_Click" Canvas.Left="220" Margin="220,0,0,260"/>
 	</Grid>

@@ -28,7 +28,7 @@ namespace BoardgameMaster
 
 		private void Delete_Click(object sender, RoutedEventArgs e)
 		{
-			this.Visibility = Visibility.Collapsed;
+			Visibility = Visibility.Collapsed;
 		}
 
 		private void ChangingInfo()
@@ -42,6 +42,34 @@ namespace BoardgameMaster
 			}
 			else
 				Visibility = Visibility.Collapsed;
+		}
+
+		private void incLevel_Click(object sender, RoutedEventArgs e)
+		{
+			int curLevel = Int32.Parse(level.Content.ToString());
+			if (curLevel < 10)
+				level.Content = (++curLevel).ToString();
+		}
+
+		private void decLevel_Click(object sender, RoutedEventArgs e)
+		{
+			int curLevel = Int32.Parse(level.Content.ToString());
+			if (curLevel > 0)
+				level.Content = (--curLevel).ToString();
+		}
+
+		private void incPower_Click(object sender, RoutedEventArgs e)
+		{
+			int curLevel = Int32.Parse(power.Content.ToString());
+			if (curLevel < 10)
+				power.Content = (++curLevel).ToString();
+		}
+
+		private void decPower_Click(object sender, RoutedEventArgs e)
+		{
+			int curLevel = Int32.Parse(power.Content.ToString());
+			if (curLevel > 0)
+				power.Content = (--curLevel).ToString();
 		}
 	}
 }
