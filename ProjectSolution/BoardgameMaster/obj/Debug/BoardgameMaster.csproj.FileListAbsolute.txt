@@ -48,3 +48,7 @@ D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\Mun
 D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\MunchkinPlayer.baml
 D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\NewInfo.g.cs
 D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\NewInfo.baml
+D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\Mafia.g.cs
+D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\MafiaPlayer.g.cs
+D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\Mafia.baml
+D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\MafiaPlayer.baml

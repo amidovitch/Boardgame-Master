@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,28 +15,18 @@ using System.Windows.Shapes;
 namespace BoardgameMaster
 {
 	/// <summary>
-	/// Логика взаимодействия для Munchkin.xaml
+	/// Логика взаимодействия для Mafia.xaml
 	/// </summary>
-	public partial class Munchkin : Window
+	public partial class Mafia : Window
 	{
-		public Munchkin()
+		public Mafia()
 		{
 			InitializeComponent();
 		}
 
-		private void MunchkinPlayer_Loaded(object sender, RoutedEventArgs e)
-		{
-
-		}
-
-		private void MunchkinPlayer_Loaded_1(object sender, RoutedEventArgs e)
-		{
-
-		}
-
 		private void addPlayer_Click(object sender, RoutedEventArgs e)
 		{
-			Field.Children.Add(new MunchkinPlayer());
+			Field.Children.Add(new MafiaPlayer());
 		}
 	}
 }

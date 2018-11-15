@@ -31,5 +31,12 @@ namespace BoardgameMaster
 			newMunchWindow.Show();
 			Close();
 		}
+
+		private void MafiaWindow_Click(object sender, RoutedEventArgs e)
+		{
+			Mafia newMafiaWindow = new Mafia();
+			newMafiaWindow.Show();
+			Close();
+		}
 	}
 }

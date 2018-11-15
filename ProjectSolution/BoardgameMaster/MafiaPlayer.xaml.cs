@@ -15,16 +15,16 @@ using System.Windows.Shapes;
 
 namespace BoardgameMaster
 {
-    /// <summary>
-    /// Логика взаимодействия для MunchkinPlayer.xaml
-    /// </summary>
-    public partial class MunchkinPlayer : UserControl
-    {
-        public MunchkinPlayer()
-        {
-            InitializeComponent();
+	/// <summary>
+	/// Логика взаимодействия для MafiaPlayer.xaml
+	/// </summary>
+	public partial class MafiaPlayer : UserControl
+	{
+		public MafiaPlayer()
+		{
+			InitializeComponent();
 			ChangingInfo();
-        }
+		}
 
 		private void Delete_Click(object sender, RoutedEventArgs e)
 		{
@@ -46,38 +46,22 @@ namespace BoardgameMaster
 
 		private void incLevel_Click(object sender, RoutedEventArgs e)
 		{
-			int curLevel = Int32.Parse(level.Content.ToString());
-			if (curLevel < 10)
-				level.Content = (++curLevel).ToString();
+			
 		}
 
 		private void decLevel_Click(object sender, RoutedEventArgs e)
 		{
-			int curLevel = Int32.Parse(level.Content.ToString());
-			if (curLevel > 0)
-				level.Content = (--curLevel).ToString();
+			
 		}
 
 		private void incPower_Click(object sender, RoutedEventArgs e)
 		{
-			int curLevel = Int32.Parse(power.Content.ToString());
-			if (curLevel < 10)
-				power.Content = (++curLevel).ToString();
+			
 		}
 
 		private void decPower_Click(object sender, RoutedEventArgs e)
 		{
-			int curLevel = Int32.Parse(power.Content.ToString());
-			if (curLevel > 0)
-				power.Content = (--curLevel).ToString();
-		}
-
-		public string getName
-		{
-			get
-			{
-				return playerName.Content.ToString();
-			}
+		
 		}
 	}
 }
