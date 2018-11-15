@@ -25,7 +25,7 @@
 		</Grid.RowDefinitions>
 		<Button Name="MunchkinWindow" Height="40" Width="120" Grid.Row="0" Content="Munchkin" FontSize="18" Click="MunchkinWindow_Click"/>
 		<Button Name="MafiaWindow" Height="40" Width="120" Grid.Row="1" Content="Mafia" FontSize="18" Click="MafiaWindow_Click"/>
-		<Button Height="40" Width="120" Grid.Row="2" Content="D&amp;D" FontSize="18"/>
+		<Button Name="DDWindow" Height="40" Width="120" Grid.Row="2" Content="D&amp;D" FontSize="18" Click="DDWindow_Click"/>
 		<Button Height="40" Width="120" Grid.Row="3" Content="Warhammer" FontSize="18" Padding="0, 0, 0, 0"/>
 	</Grid>
 </Window>

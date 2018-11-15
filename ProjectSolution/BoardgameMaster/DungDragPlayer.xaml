@@ -1,16 +1,15 @@
-﻿<UserControl x:Class="BoardgameMaster.MafiaPlayer"
+﻿<UserControl x:Class="BoardgameMaster.DungDragPlayer"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:BoardgameMaster"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="260">
+            d:DesignHeight="300" d:DesignWidth="260">
 	<Grid>
 		<Label Name="playerName" Height="40" Width="160" Margin="50,45,50,215" HorizontalContentAlignment="Center"/>
 		<Label Name="playerRole" Height="40" Width="160" Margin="50,95,50,165" HorizontalContentAlignment="Center"/>
-		<TextBox Name="playerStatus" Height="40" Width="160" Margin="50,135,50,125" HorizontalContentAlignment="Center"/>
-		<RichTextBox Name="additionalInfo" Height="60" Width="160" Margin="50,185,50,55" Padding="0, 0, 0, 0" />
+		<RichTextBox Name="additionalInfo" Height="100" Width="160" Margin="50,145,50,55" Padding="0, 0, 0, 0" />
 		<Button Name="Edit" Height="40" Width="150" Canvas.Left="55" Canvas.Top="230" Content="Edit" FontSize="20" Margin="55,255,55,5"/>
 		<Button Name="Delete" Height="40" Width="40" Canvas.Right="10" Click="Delete_Click" Canvas.Left="220" Margin="220,0,0,260"/>
 	</Grid>

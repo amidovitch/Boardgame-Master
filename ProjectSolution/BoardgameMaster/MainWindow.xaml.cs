@@ -38,5 +38,12 @@ namespace BoardgameMaster
 			newMafiaWindow.Show();
 			Close();
 		}
+
+		private void DDWindow_Click(object sender, RoutedEventArgs e)
+		{
+			DungDrag newDungDragWindow = new DungDrag();
+			newDungDragWindow.Show();
+			Close();
+		}
 	}
 }

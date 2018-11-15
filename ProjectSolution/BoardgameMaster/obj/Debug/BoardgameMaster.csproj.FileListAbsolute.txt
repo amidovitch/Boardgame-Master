@@ -52,3 +52,7 @@ D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\Maf
 D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\MafiaPlayer.g.cs
 D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\Mafia.baml
 D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\MafiaPlayer.baml
+D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\DungDrag.g.cs
+D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\DungDrag.baml
+D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\DungDragPlayer.g.cs
+D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\DungDragPlayer.baml
