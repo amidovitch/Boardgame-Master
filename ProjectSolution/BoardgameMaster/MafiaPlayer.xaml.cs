@@ -35,33 +35,13 @@ namespace BoardgameMaster
 		{
 			NewInfo newInfo = new NewInfo();
 			newInfo.ShowDialog();
-			if (newInfo.SavingFlag == true)
+			if (newInfo.SavingFlag)
 			{
 				playerName.Content = newInfo.playerName.Text;
 				playerRole.Content = newInfo.playerRole.Text;
 			}
 			else
 				Visibility = Visibility.Collapsed;
-		}
-
-		private void incLevel_Click(object sender, RoutedEventArgs e)
-		{
-			
-		}
-
-		private void decLevel_Click(object sender, RoutedEventArgs e)
-		{
-			
-		}
-
-		private void incPower_Click(object sender, RoutedEventArgs e)
-		{
-			
-		}
-
-		private void decPower_Click(object sender, RoutedEventArgs e)
-		{
-		
 		}
 	}
 }

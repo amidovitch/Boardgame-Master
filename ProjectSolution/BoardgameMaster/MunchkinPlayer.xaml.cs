@@ -26,6 +26,11 @@ namespace BoardgameMaster
 			ChangingInfo();
         }
 
+		public MunchkinPlayer(bool noStartWindow)
+		{
+			InitializeComponent();
+		}
+
 		private void Delete_Click(object sender, RoutedEventArgs e)
 		{
 			Visibility = Visibility.Collapsed;
@@ -35,7 +40,7 @@ namespace BoardgameMaster
 		{
 			NewInfo newInfo = new NewInfo();
 			newInfo.ShowDialog();
-			if (newInfo.SavingFlag == true)
+			if (newInfo.SavingFlag)
 			{
 				playerName.Content = newInfo.playerName.Text;
 				playerRole.Content = newInfo.playerRole.Text;

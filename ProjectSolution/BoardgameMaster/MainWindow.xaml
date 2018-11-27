@@ -6,16 +6,14 @@
         xmlns:local="clr-namespace:BoardgameMaster"
         mc:Ignorable="d"
         Title="MainWindow" Height="300" Width="200"
-		  xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        
-       TextElement.Foreground="{DynamicResource MaterialDesignBody}"
-     TextElement.FontWeight="Regular"
-     TextElement.FontSize="18"
-     TextOptions.TextFormattingMode="Ideal"
-     TextOptions.TextRenderingMode="Auto"
-       
-     Background="{DynamicResource MaterialDesignPaper}"
-     FontFamily="{DynamicResource MaterialDesignFont}" >
+		xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+		TextElement.FontWeight="Regular"
+		TextElement.FontSize="18"
+		TextOptions.TextFormattingMode="Ideal"
+		TextOptions.TextRenderingMode="Auto"
+		Background="{DynamicResource MaterialDesignPaper}"
+		FontFamily="{DynamicResource MaterialDesignFont}" >
 	<Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition></RowDefinition>
@@ -26,6 +24,6 @@
 		<Button Name="MunchkinWindow" Height="40" Width="120" Grid.Row="0" Content="Munchkin" FontSize="18" Click="MunchkinWindow_Click"/>
 		<Button Name="MafiaWindow" Height="40" Width="120" Grid.Row="1" Content="Mafia" FontSize="18" Click="MafiaWindow_Click"/>
 		<Button Name="DDWindow" Height="40" Width="120" Grid.Row="2" Content="D&amp;D" FontSize="18" Click="DDWindow_Click"/>
-		<Button Height="40" Width="120" Grid.Row="3" Content="Warhammer" FontSize="18" Padding="0, 0, 0, 0"/>
+		<Button Name="WarhammerWindow" Height="40" Width="120" Grid.Row="3" Content="Warhammer" FontSize="18" Padding="0, 0, 0, 0" Click="WarhammerWindow_Click"/>
 	</Grid>
 </Window>

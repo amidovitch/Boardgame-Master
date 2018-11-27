@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace BoardgameMaster
 {
 	/// <summary>
-	/// Логика взаимодействия для DungDragPlayerxaml.xaml
+	/// Логика взаимодействия для WarhammerModel.xaml
 	/// </summary>
-	public partial class DungDragPlayer : UserControl
+	public partial class WarhammerModel : UserControl
 	{
-		public DungDragPlayer()
+		public WarhammerModel()
 		{
 			InitializeComponent();
 			ChangingInfo();
@@ -35,13 +35,27 @@ namespace BoardgameMaster
 		{
 			NewInfo newInfo = new NewInfo();
 			newInfo.ShowDialog();
-			if (newInfo.SavingFlag)
+			if (newInfo.SavingFlag == true)
 			{
 				playerName.Content = newInfo.playerName.Text;
 				playerRole.Content = newInfo.playerRole.Text;
 			}
 			else
 				Visibility = Visibility.Collapsed;
+		}
+
+		private void incLevel_Click(object sender, RoutedEventArgs e)
+		{
+			int curLevel = Int32.Parse(level.Content.ToString());
+			if (curLevel < 10)
+				level.Content = (++curLevel).ToString();
+		}
+
+		private void decLevel_Click(object sender, RoutedEventArgs e)
+		{
+			int curLevel = Int32.Parse(level.Content.ToString());
+			if (curLevel > 0)
+				level.Content = (--curLevel).ToString();
 		}
 	}
 }

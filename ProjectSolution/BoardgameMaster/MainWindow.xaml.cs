@@ -45,5 +45,12 @@ namespace BoardgameMaster
 			newDungDragWindow.Show();
 			Close();
 		}
+
+		private void WarhammerWindow_Click(object sender, RoutedEventArgs e)
+		{
+			Warhammer newWarhWindow = new Warhammer();
+			newWarhWindow.Show();
+			Close();
+		}
 	}
 }

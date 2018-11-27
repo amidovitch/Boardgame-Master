@@ -11,25 +11,27 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using System.IO;
 
 namespace BoardgameMaster
 {
 	/// <summary>
-	/// Логика взаимодействия для Mafia.xaml
+	/// Логика взаимодействия для Warhammer.xaml
 	/// </summary>
-	public partial class Mafia : Window
+	public partial class Warhammer : Window
 	{
-		public Mafia()
+		public Warhammer()
 		{
 			InitializeComponent();
 		}
 
 		private void addPlayer_Click(object sender, RoutedEventArgs e)
 		{
-			Field.Children.Add(new MafiaPlayer());
+			Dices.Children.Add(new WarhammerPlayer());
 		}
 
-		
+		private void addModel_Click(object sender, RoutedEventArgs e)
+		{
+			Field.Children.Add(new WarhammerModel());
+		}
 	}
 }

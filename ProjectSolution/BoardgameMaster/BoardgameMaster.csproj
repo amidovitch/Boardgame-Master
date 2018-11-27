@@ -64,6 +64,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Warhammer.xaml.cs">
+      <DependentUpon>Warhammer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WarhammerModel.xaml.cs">
+      <DependentUpon>WarhammerModel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WarhammerPlayer.xaml.cs">
+      <DependentUpon>WarhammerPlayer.xaml</DependentUpon>
+    </Compile>
     <Page Include="DungDrag.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -113,6 +122,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="NewInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warhammer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WarhammerModel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WarhammerPlayer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

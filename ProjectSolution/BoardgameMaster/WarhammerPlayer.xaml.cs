@@ -10,26 +10,30 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.IO;
 
 namespace BoardgameMaster
 {
 	/// <summary>
-	/// Логика взаимодействия для Mafia.xaml
+	/// Логика взаимодействия для WarhammerPlayer.xaml
 	/// </summary>
-	public partial class Mafia : Window
+	public partial class WarhammerPlayer : UserControl
 	{
-		public Mafia()
+		public WarhammerPlayer()
 		{
 			InitializeComponent();
 		}
 
-		private void addPlayer_Click(object sender, RoutedEventArgs e)
+		private void Generate_Click(object sender, RoutedEventArgs e)
 		{
-			Field.Children.Add(new MafiaPlayer());
+			Random rnd = new Random();
+			Num.Text = rnd.Next(1, Int32.Parse(Num.Text)).ToString();
 		}
 
-		
+		private void Delete_Click(object sender, RoutedEventArgs e)
+		{
+			Visibility = Visibility.Collapsed;
+		}
 	}
 }

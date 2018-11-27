@@ -6,16 +6,14 @@
         xmlns:local="clr-namespace:BoardgameMaster"
         mc:Ignorable="d"
         Title="Mafia" Height="450" Width="820"
-    	xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        
+    	xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"     
 		TextElement.Foreground="{DynamicResource MaterialDesignBody}"
 		TextElement.FontWeight="Regular"
 		TextElement.FontSize="18"
 		TextOptions.TextFormattingMode="Ideal"
 		TextOptions.TextRenderingMode="Auto"
-       
-     Background="{DynamicResource MaterialDesignPaper}"
-     FontFamily="{DynamicResource MaterialDesignFont}" >
+		Background="{DynamicResource MaterialDesignPaper}"
+		FontFamily="{DynamicResource MaterialDesignFont}" >
 	<Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="3*">
@@ -24,7 +22,7 @@
 			<RowDefinition Height="0.7*"></RowDefinition>
 		</Grid.RowDefinitions>
 		<Button Name="addPlayer" Grid.Row="0" Height="50" Width="50" FontSize="30" Content="+"  Padding="0, 0, 0, 0" Click="addPlayer_Click" Margin="10,10,733.6,29.6"  />
-		<Button Height="Auto" FontSize="35" Content="Save" Margin="445,10,198.6,26.4"/>
+		<Button Name="Save" Height="Auto" FontSize="35" Content="Save" Margin="445,10,198.6,26.4"/>
 		<Button Height="Auto" FontSize="35" Content="Load" Margin="625,10,18.6,26.4"/>
 		<ScrollViewer  HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible" Grid.Row="1">
 			<WrapPanel Height="Auto" Name="Field"  Canvas.Left="10" Canvas.Top="85" Orientation="Horizontal" >

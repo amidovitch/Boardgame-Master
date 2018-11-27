@@ -1,0 +1,43 @@
+﻿<Window x:Class="BoardgameMaster.Warhammer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BoardgameMaster"
+        mc:Ignorable="d"
+        Title="Warhammer" Height="450" Width="800"
+		xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+		TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+		TextElement.FontWeight="Regular"
+		TextElement.FontSize="18"
+		TextOptions.TextFormattingMode="Ideal"
+		TextOptions.TextRenderingMode="Auto"
+		Background="{DynamicResource MaterialDesignPaper}"
+		FontFamily="{DynamicResource MaterialDesignFont}" >
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="204*"/>
+			<ColumnDefinition Width="193*"/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="3*">
+			</RowDefinition>
+			<RowDefinition Height="10*"></RowDefinition>
+			<RowDefinition Height="0.7*"></RowDefinition>
+		</Grid.RowDefinitions>
+		<Button Name="addPlayer" Grid.Row="0" Height="50" Width="50" FontSize="30" Content="+"  Padding="0, 0, 0, 0" Click="addPlayer_Click" Margin="122,17,235.565,25"  />
+		<Button Name="addModel" Grid.Row="0" Height="50" Width="50" FontSize="30" Content="+"  Padding="0, 0, 0, 0" Click="addModel_Click"  Margin="30,17,327.565,25"  />
+		<Button Height="Auto" FontSize="35" Content="Save" Margin="37.435,10,198.6,26" Grid.Column="1"/>
+		<Button Height="Auto" FontSize="35" Content="Load" Margin="217.435,10,18.6,26" Grid.Column="1"/>
+		<ScrollViewer  HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible" Grid.Row="1" Margin="0,0,153.565,0.4" >
+			<WrapPanel Height="Auto" Name="Field"  Canvas.Left="10" Canvas.Top="85" Orientation="Horizontal" >
+
+			</WrapPanel>
+		</ScrollViewer>
+		<ScrollViewer  HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible" Grid.Row="1" Margin="260,0,-0.4,0.4" Grid.ColumnSpan="2" >
+			<WrapPanel Height="Auto" Name="Dices"  Canvas.Left="10" Canvas.Top="85" Orientation="Horizontal" >
+
+			</WrapPanel>
+		</ScrollViewer>
+	</Grid>
+</Window>

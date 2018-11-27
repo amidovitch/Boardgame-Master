@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\App.xaml
-8-1926535201
+11-955566925
 
-16-857070575
+191616688588
 162045066397
-DungDrag.xaml;DungDragPlayer.xaml;Mafia.xaml;MafiaPlayer.xaml;MainWindow.xaml;Munchkin.xaml;MunchkinPlayer.xaml;NewInfo.xaml;
+DungDrag.xaml;DungDragPlayer.xaml;Mafia.xaml;MafiaPlayer.xaml;MainWindow.xaml;Munchkin.xaml;MunchkinPlayer.xaml;NewInfo.xaml;Warhammer.xaml;WarhammerModel.xaml;WarhammerPlayer.xaml;
 
-True
+False
 

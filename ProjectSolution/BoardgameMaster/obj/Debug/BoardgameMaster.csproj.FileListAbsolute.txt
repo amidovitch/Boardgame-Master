@@ -56,3 +56,9 @@ D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\Dun
 D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\DungDrag.baml
 D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\DungDragPlayer.g.cs
 D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\DungDragPlayer.baml
+D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\Warhammer.g.cs
+D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\WarhammerModel.g.cs
+D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\WarhammerPlayer.g.cs
+D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\Warhammer.baml
+D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\WarhammerModel.baml
+D:\Projects\VS2017\BoardgameMaster\ProjectSolution\BoardgameMaster\obj\Debug\WarhammerPlayer.baml
